@@ -1,0 +1,27 @@
+{
+  "name": "armourment",
+  "version": "0.1.0",
+  "description": "Generate conversational UI by having actual conversations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Truemedia/armourment.git"
+  },
+  "keywords": [
+    "conversational",
+    "ui",
+    "generation",
+    "utterance",
+    "intent",
+    "ssml"
+  ],
+  "author": "Wade Penistone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Truemedia/armourment/issues"
+  },
+  "homepage": "https://github.com/Truemedia/armourment#readme"
+}
