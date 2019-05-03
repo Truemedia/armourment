@@ -1,4 +1,4 @@
-const Armourment = require('./index');
+const Armourment = require('./src/index');
 
 let armour = new Armourment({
   person: 'Wade',
