@@ -1,11 +1,12 @@
 const Dialog = require('./dialog');
+const jsonfile = require('jsonfile');
 
 class Conversation
 {
-  constructor(participants = [])
+  constructor(participants = [], timeline = [])
   {
     this.participants = participants;
-    this.timeline = [];
+    this.timeline = timeline;
   }
 
   join(participant = '')
@@ -62,8 +63,13 @@ class Conversation
       case 'timeline':
         timeline = this.timeline;
         ext = 'json';
-      break;
-    }
+        jsonfile.writeFile('test.json', timeline)
+          .then(res => {
+            console.log('Write complete')
+          })
+          .catch(error => console.error(error))
+            break;
+          };
     let filename = `${participant}`;
     return filename;
   }

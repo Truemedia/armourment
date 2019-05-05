@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/Truemedia/armourment#readme",
   "dependencies": {
+    "jsonfile": "^5.0.0",
     "yargs": "^13.2.2"
   }
 }
