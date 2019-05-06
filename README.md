@@ -31,5 +31,5 @@ This commandline tool works with multiple file types, some standardised and wide
 - JSON Schema (*.schema.json)
 - Speech sythesis markup language (*.ssml)
 - Timeline file (*.timeline.json)
-  File containing array of (Message objects)[https://github.com/mattmezza/react-beautiful-chat#message-objects]
+  File containing array of [Message objects](https://github.com/mattmezza/react-beautiful-chat#message-objects)
 - Utter file (*.utter)
