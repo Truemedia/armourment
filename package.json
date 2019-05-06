@@ -19,6 +19,14 @@
     "intent",
     "ssml"
   ],
+  "files": [
+    "src/cli.js",
+    "src/conversation.js",
+    "src/dialog.js",
+    "src/index.js",
+    "src/timeline.js",
+    "README.md"
+  ],
   "author": "Wade Penistone",
   "license": "ISC",
   "bugs": {
